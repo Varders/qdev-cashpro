@@ -4,15 +4,22 @@ def calculerReduction(total, fidelite):
       return null
     else: 
       return fidelite; 
-    
-    if total >= 200 and fidelite = True :
-        return 200*0.85
-    elif total >= 100 OR < 200 AND fidelite = True :
-        return total*0.90
-    elif total >= 30 OR < 100 AND fidelite = True :
-        return total*0.95
-    elif total >= 0 OR < 30 AND fidelite = True :
-        return total*1
+
+    if fidelite = False :
+        return null 
+    else :
+        if total >0 
+            return total
+        
+        elif total >= 200 and fidelite = True :
+            return 200*0.85
+        elif total >= 100 OR < 200 and fidelite = True :
+            return total*0.90
+        elif total >= 30 OR < 100 and fidelite = True :
+            return total*0.95
+        elif total >= 0 OR < 30 and fidelite = True :
+            return total*1
+
     
 
 
