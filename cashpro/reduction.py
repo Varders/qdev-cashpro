@@ -4,5 +4,8 @@ def calculerReduction(total, fidelite):
       return null
     else: 
       return fidelite; 
+    
+    if total >= 200 and fidelite = True :
+    return 200*0.85
 
 
