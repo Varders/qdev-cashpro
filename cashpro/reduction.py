@@ -9,6 +9,8 @@ def calculerReduction(total, fidelite):
         return 200*0.85
     elif total >= 100 OR < 200 AND fidelite = True :
         return total*0.90
+    elif total >= 30 OR < 100 AND fidelite = True :
+        return total*0.95
     
 
 
